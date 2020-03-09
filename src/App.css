@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+h3 {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+p {
+  font-size: 12px;
+  font-weight: 300;
+  color: #777;
+}
+
+.heading {
+  margin: 2rem;
+  height: 48px;
+  width: 320px;
+  font-size: 32px;
+  font-weight: 600;
+  color: #000;
+  background-color: #777;
+}
+
+.subheading {
+  margin-top: 20px;
+  height: 24px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  background-color: #333;
+}
+
+@media(max-width: 763px) {
+  .heading {
+    margin: 2rem auto;
+  }
+  .subheading {
+    margin: 20px 2rem;
+  }
+}

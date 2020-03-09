@@ -1,0 +1,30 @@
+.Card {
+    margin: 48px;
+    padding: 8px;
+    max-height: 500px;
+    width: 320px;
+    box-shadow: 0px 4px 8px #333;
+}
+
+.Card__Title {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 8px 16px;
+}
+
+.Card__Content {
+    padding: 8px 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media(max-width: 400px) {
+    .Card__Content {
+        padding: 8px 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}

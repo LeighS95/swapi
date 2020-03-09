@@ -1,0 +1,17 @@
+.CardSection__Container {
+    margin: 0 2rem;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+@media(max-width: 925px) {
+    .CardSection__Container {
+        margin: 0 2rem;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

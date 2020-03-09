@@ -1,0 +1,12 @@
+.Star__Container {
+    height: 40px;
+    width: 40px;
+    fill: #fff;
+    stroke: #000;
+    cursor: pointer;
+}
+
+.Star__Active {
+    stroke: #000;
+    fill:yellow;
+}

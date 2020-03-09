@@ -1,24 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
+import CardSection from './components/CardSection';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className="heading">Ships</h1>
+      <p classNAme="subheading">These are the ships with more that 10 in crew and sorted by number in crew in decending order. Additionally a star icon denotes most film apperances (more than one will show if in same amount of films).</p>
+      <CardSection />
     </div>
   );
 }
